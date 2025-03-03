@@ -12,7 +12,7 @@ import java.util.Base64;
 public class ObterToken {
 
     private static final String CLIENT_ID = System.getenv("CLIENT_ID_SPOTIFY");
-    private static final String CLIENT_SECRET = System.getenv("CLIENT_SECRET_SPOTIFY");;
+    private static final String CLIENT_SECRET = System.getenv("CLIENT_SECRET_SPOTIFY");
 
     public static String getAccessToken() throws Exception {
 
